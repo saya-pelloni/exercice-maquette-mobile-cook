@@ -79,6 +79,7 @@ p {
 h3 {
   display: flex;
   justify-content: center;
+  font-family: 'Libre Franklin', sans-serif;
   font-size: 16px;
   margin-top: 15px;
   line-height: 1.2;
@@ -88,10 +89,19 @@ h3 {
 .dark-section {
   background-color: #ebede7;
   padding: 15px;
+  
 }
 
 img {
   margin-top: 10px;
+}
+
+.text-for-recipe {
+  background-color: white;
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 20px;
+  line-height: 1.2;
+  padding: 10px;
 }
 
 h4 {
@@ -99,10 +109,11 @@ h4 {
   font-size: 20px;
 }
 
-footer {
+.black-section {
   font-family: 'Libre Franklin', sans-serif;
   background-color: black;
   color: white;
+  padding-left: 15px;
 }
 
 /* ====================================
